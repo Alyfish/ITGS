@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "1062847544837",
+    "firebase_url": "https://teashop-1b74c.firebaseio.com",
+    "project_id": "teashop-1b74c",
+    "storage_bucket": "teashop-1b74c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062847544837:android:57257e0e90d211e9b3e66c",
+        "android_client_info": {
+          "package_name": "com.exam.exampaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062847544837-pp9ut3rhbk7mhv5nvsfg7l0ht5kfn1m1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exam.exampaper",
+            "certificate_hash": "9af8a6d322060de055fbec9dedb9b50d81b6eb82"
+          }
+        },
+        {
+          "client_id": "1062847544837-lil6gar36194fklb0blq1a4c5bgfv825.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyH-82vfUyhXQOKcgz34rMQaBfqjvZ0s4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062847544837-lil6gar36194fklb0blq1a4c5bgfv825.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062847544837:android:b774e548ae1a0c6ab3e66c",
+        "android_client_info": {
+          "package_name": "com.exam.foodit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062847544837-d2tqod8qtnl5dpc8c62vvvnul1pbq33m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exam.foodit",
+            "certificate_hash": "9af8a6d322060de055fbec9dedb9b50d81b6eb82"
+          }
+        },
+        {
+          "client_id": "1062847544837-lil6gar36194fklb0blq1a4c5bgfv825.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyH-82vfUyhXQOKcgz34rMQaBfqjvZ0s4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062847544837-lil6gar36194fklb0blq1a4c5bgfv825.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062847544837:android:cc7b4bdc4fcf679ab3e66c",
+        "android_client_info": {
+          "package_name": "com.optisoft.naukri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062847544837-hoc82l9kdtuk4apanihrb61ivt5tt3b7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.optisoft.naukri",
+            "certificate_hash": "9af8a6d322060de055fbec9dedb9b50d81b6eb82"
+          }
+        },
+        {
+          "client_id": "1062847544837-lil6gar36194fklb0blq1a4c5bgfv825.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyH-82vfUyhXQOKcgz34rMQaBfqjvZ0s4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062847544837-lil6gar36194fklb0blq1a4c5bgfv825.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062847544837:android:1a3e5e1de4a6e6b1b3e66c",
+        "android_client_info": {
+          "package_name": "com.tea_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062847544837-7a954dfah4r6eavnjc5p0jthjtg53foc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tea_shop",
+            "certificate_hash": "9af8a6d322060de055fbec9dedb9b50d81b6eb82"
+          }
+        },
+        {
+          "client_id": "1062847544837-lil6gar36194fklb0blq1a4c5bgfv825.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyH-82vfUyhXQOKcgz34rMQaBfqjvZ0s4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062847544837-lil6gar36194fklb0blq1a4c5bgfv825.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

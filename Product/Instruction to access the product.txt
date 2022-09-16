@@ -1,0 +1,11 @@
+Directions to Access the Product
+
+* Download the APK file on an Android phone or use an Android emulator such as Blue Stacks, NoxPlayer or Android Studios Emulator and run the file. Note: It is recommended to test the product on the target device, which is an Android Phone.
+
+* If using a phone, once the APK file is downloaded, the app icon should appear with the logo and name “Nawab”.
+
+* To access the Admin Panel, Login with the username and password provided on the cover page.
+
+* To access the Android Application, user can Sign in via the Register now button, Google Sign in or Facebook Sign in. 
+
+* To access the database file, user can open via localhost/phpmyadmin

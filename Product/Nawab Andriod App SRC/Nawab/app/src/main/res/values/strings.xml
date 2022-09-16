@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Nawab</string>
+
+    <string name="facebook_app_id">1332994893537386</string>
+    <string name="fb_login_protocol_scheme">fb1332994893537386</string>
+
+    <string name="slogan"> Make it great "\n"Now you’re eating! "\n"Makin’ it great again and again "\n"Now You’re Eating! "\n"Gather ‘Round the Good Stuff</string>
+    <string name="title_activity_main">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_title">Are you sure you want to Logout ?</string>
+    <string name="dialog_popup">   Eat It Restaurant</string>
+    <string name="ok" />
+    <string name="cancel" />
+    <string name="forgot">Forgot Password</string>
+    <string name="register_now">Register Now</string>
+    <string name="already_mem">Already a member ? </string>
+    <string name="login_now">Login Now</string>
+    <string name="login">Login</string>
+    <string name="wishlist">Wishlist</string>
+</resources>

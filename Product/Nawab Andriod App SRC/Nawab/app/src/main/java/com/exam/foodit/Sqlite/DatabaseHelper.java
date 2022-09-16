@@ -1,0 +1,75 @@
+package com.exam.foodit.Sqlite;
+
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class DatabaseHelper extends SQLiteOpenHelper {
+    public static final String DATABASE_NAME = "EatItData";
+
+    //TABLE 2 FOR ORDER DETAILS
+
+    public  static final String TABLE_NAME_2 = "OrderDetails";
+    public  static final String KEY_1 = "Myid";
+    public  static final String KEY_2 = "ItemName";
+    public  static final String KEY_3 = "ItemQuantity";
+    public  static final String KEY_4 = "ItemPrice";
+
+
+    public DatabaseHelper(Context context) {
+        super(context, DATABASE_NAME, null, 1);
+
+    }
+
+    @Override
+    public void onCreate(SQLiteDatabase db) {
+        db.execSQL("CREATE TABLE " + TABLE_NAME_2 +" (orderno integer primary key autoincrement, myid text, itemname text,itemquantity text,itemprice text) "   );
+    }
+
+    @Override
+    public void onUpgrade(SQLiteDatabase db, int i, int i1) {
+        db.execSQL("DROP TABLE IF EXISTS "+ TABLE_NAME_2);
+        onCreate(db);
+    }
+
+    public Cursor CheckAccount(String searchstr){
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor = db.rawQuery("SELECT * FROM Customers WHERE Name LIKE '%"+searchstr+"%'", null);
+        if(cursor != null){
+            cursor.moveToFirst();
+        }
+        return cursor;
+    }
+
+    //ORDER DETAILS DATABASE WORK
+
+    public boolean Add_to_Cart(String myid, String Name,String Quantity,String Price){
+        SQLiteDatabase db = getWritableDatabase();
+        ContentValues contentValues1 = new ContentValues();
+        contentValues1.put(KEY_1,myid);
+        contentValues1.put(KEY_2,Name);
+        contentValues1.put(KEY_3,Quantity);
+        contentValues1.put(KEY_4,Price);
+        double check = db.insert(TABLE_NAME_2,null,contentValues1);
+        if(check == -1) return false;
+        else return true;
+    }
+
+    public Cursor Get_OrderDetails() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor data = db.rawQuery("SELECT * FROM "+ TABLE_NAME_2, null);
+        return data;
+    }
+
+    public Integer delete_one(String id){
+        SQLiteDatabase db = this.getWritableDatabase();
+        return db.delete(TABLE_NAME_2,"Myid = ?",new String [] {id});
+
+    }
+    public void delete_all( ){
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.execSQL("delete from "+ TABLE_NAME_2);
+    }
+}
