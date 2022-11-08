@@ -1,4 +1,4 @@
-### Hello! I'm Aly Jassani an aspiring back end dev
+### Hello! I'm Aly Jassani an aspiring backend developer -> This is my personal repository with my personal projects!
 
 
 
